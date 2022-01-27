@@ -1,8 +1,16 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { HouseInfo } from './components/index';
 
-function render() {
-  ReactDOM.render(<div className='App'></div>, document.body);
+function App() {
+	return (
+		<div className='App'>
+			<div className='Divider'>
+				<div className='HouseDetails'>
+					<HouseInfo price='230,500' address='335 Fox Haven Dr Aiken, SC 29803'/>
+				</div>
+			</div>
+		</div>
+	)
 }
 
-render();
+export default App;

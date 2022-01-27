@@ -1,0 +1,22 @@
+.HomeInfoWrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.Price {
+	margin-bottom: 30px;
+	font-size: 45px;
+	color: white;
+	height: 20px;
+	width: 20px;
+}
+
+.Address {
+	height: 10%;
+	width: 100%;
+	font-size: 30px;
+	color: white;
+}
